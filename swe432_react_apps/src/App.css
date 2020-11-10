@@ -1,0 +1,64 @@
+* {
+  background-color: #27292b;
+  color: white;
+  font-family: 'system-ui';
+  font-weight: 200;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 300px 0px 300px;
+}
+
+.app-header a {
+  margin: 10px;
+}
+
+.subsection {
+  margin: auto;
+  margin-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+h3 {
+  margin-top: -20px;
+  font-weight: 200;
+}
+
+.button {
+  margin: 10;
+  margin-left: 30px;
+  font-weight: 400;
+  padding: 5 10 5;
+  border-radius: 10%;
+  border-style: solid;
+  border-width: 1;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.submit-button {
+  margin-top: 40px;
+  margin-left: 0px;
+  padding: 10;
+  border-color: white;
+}
+
+.error-text {
+  color: #ffa0a0;
+  margin: auto;
+  margin-left: 40px;
+}
