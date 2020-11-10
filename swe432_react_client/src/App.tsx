@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 
 import { Assignment9 } from './components/assignment9_app/Assignment9'
+import { Home } from './components/home/Home'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <div>
           <Switch>
             <Route exact path="/assignment9" component={Assignment9} />
+            <Route exact path="/" component={Home} />
           </Switch>
         </div>
       </Router>

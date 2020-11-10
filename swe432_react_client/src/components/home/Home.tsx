@@ -17,28 +17,12 @@ function reducer(state: typeof initialState, action: ACTIONTYPE) {
   }
 }
 
-export function Assignment9() {
+export function Home() {
   const [state, dispatch] = React.useReducer(reducer, initialState);
   return (
     <div className="main-section">
       <div className="subsection">
-        <h1>
-          SWE432-001 Assignment 9
-          </h1>
-        <h3>
-          Created By:
-            <a href="https://mason.gmu.edu/~afuentel/">
-            Alexandro Fuentelzas
-            </a>
-              ,&nbsp;
-            <a href="https://mason.gmu.edu/~dparikh4/">
-            Deval Parikh
-            </a>
-              ,&nbsp;
-            <a href="https://mason.gmu.edu/~spolina/">
-            Surya Polina
-            </a>
-        </h3>
+        Hello world. Using react-router-dom
       </div>
     </div>
   );

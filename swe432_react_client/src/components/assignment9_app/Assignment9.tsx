@@ -41,7 +41,7 @@ export function Assignment9() {
         </h3>
       </div>
       <div className="subsection">
-        Count: {state.count}
+        (not actually assignment 9) Count: {state.count}
         <button onClick={() => dispatch({ type: "decrement", payload: "5" })}>
           -
       </button>
