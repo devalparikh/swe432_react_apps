@@ -7,7 +7,7 @@
     "dev": "cd swe432_react_client && react-scripts start",
     "start": "npm install && cd swe432_react_client && npm start",
     "build": "cd swe432_react_client && npm run build",
-    "heroku-postbuild": "cd swe432_react_client && npm run build"
+    "heroku-postbuild": "npm install && cd swe432_react_client && npm install && npm build"
   },
   "repository": {
     "type": "git",
