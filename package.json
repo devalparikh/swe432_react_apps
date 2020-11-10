@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd swe432_react_client && npm start",
-    "build": "cd swe432_react_client && npm build"
+    "start": "cd swe432_react_client && react-scripts start",
+    "build": "cd swe432_react_client && react-scripts build"
   },
   "repository": {
     "type": "git",
