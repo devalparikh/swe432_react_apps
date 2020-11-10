@@ -1,0 +1,21 @@
+{
+  "name": "swe432_react_apps",
+  "version": "1.0.0",
+  "description": "swe432_react_apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd swe432_react_client && npm start",
+    "build": "cd swe432_react_client && npm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devalparikh/swe432_react_apps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devalparikh/swe432_react_apps/issues"
+  },
+  "homepage": "https://github.com/devalparikh/swe432_react_apps#readme"
+}
