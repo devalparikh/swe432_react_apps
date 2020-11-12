@@ -85,6 +85,19 @@ export function Assignment9() {
           <StringDisplay currentStrings={storedStrings} randomString={currStr} />
         </div>
       </div>
+      <div className="subsection">
+        <h1>
+          Collaboration Summary
+        </h1>
+        <h3>
+          Our group made a collaberative effort to complete Assignment 9. 
+          Deval created the repository and the template codebase with react router dom and deployed to heroku. 
+          Surya worked on the navigation bar and control flow to adhere to usability standards. 
+          Alex created the functional components that handles the string inputs and string outputs. 
+          Alex also created the layout to adhear to usability standards. 
+          We all helped one another to design and implement each of our parts. 
+        </h3>
+      </div>
     </div>
   );
 }
