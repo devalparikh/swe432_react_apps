@@ -8,6 +8,8 @@ import {
 
 import { Assignment9 } from './components/assignment9_app/Assignment9'
 import Assignment10 from './components/assignment10_app/Assignment10'
+import { PreFinal } from './components/pre-final/PreFinal'
+import { Final } from './components/final/Final'
 import { Home } from './components/home/Home'
 
 function App() {
@@ -26,6 +28,9 @@ function App() {
           <Switch>
             <Route exact path="/assignment9" component={Assignment9} />
             <Route exact path="/assignment10" component={Assignment10} />
+            <Route exact path="/prefinal" component={PreFinal} />
+            <Route exact path="/final" component={Final} />
+
             <Route exact path="/" component={Home} />
           </Switch>
         </div>
