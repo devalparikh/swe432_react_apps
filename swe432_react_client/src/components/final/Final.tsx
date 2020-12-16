@@ -10,7 +10,7 @@ export function Final() {
     const [DisplayStrings, setDisplayStrings] = useState([""]); // All strings specifically sorted
     const [DisplayFinalStrings, setDisplayFinalStrings] = useState([""]);  // The final strings to display
 
-    const [Sort, setSort] = useState(0); // Which way to sort
+    const [Sort, setSort] = useState(2); // Which way to sort
     const [Unique, setUnique] = useState(0); // Unique strings or not
     const [InputError, setInputError] = useState(0); // Input Error state
 
