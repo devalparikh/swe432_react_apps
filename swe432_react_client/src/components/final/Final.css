@@ -1,0 +1,29 @@
+* {
+    font-size: 30px;
+}
+
+.invert {
+    background-color: white;
+    color: #27292b;
+}
+
+.input-field {
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.option-button {
+    border-style: none;
+    margin: 10px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.option-button:hover {
+    background-color: gray;
+}
+
+.error-text {
+    background-color: white;
+}
